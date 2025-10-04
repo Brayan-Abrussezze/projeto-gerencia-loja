@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Brechó Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Brechó Online</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="catalog.html">Catálogo</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">Sobre Nós</a>
+            <a href="contact.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="catalog">
+            <h2>Catálogo de Produtos</h2>
+            <div class="filters">
+                <input type="text" id="search" placeholder="Buscar produto...">
+                <select id="category">
+                    <option value="">Todas as categorias</option>
+                    <option value="roupas">Roupas</option>
+                    <option value="acessorios">Acessórios</option>
+                </select>
+                <select id="size">
+                    <option value="">Todos os tamanhos</option>
+                    <option value="p">P</option>
+                    <option value="m">M</option>
+                    <option value="g">G</option>
+                </select>
+            </div>
+            <div class="product-grid" id="product-list">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Brechó Online</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
